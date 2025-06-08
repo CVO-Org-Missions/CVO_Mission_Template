@@ -1,4 +1,5 @@
 // MISSION MAKERS ONLY TOUCH THIS //
+
 // ACE Advanced Balistics -> Advanced Ballistics = true or false //
 force ace_advanced_ballistics_enabled = true;
 // ACE Artillery -> Artillery Computer Disabled = true or false //
@@ -21,6 +22,7 @@ force AET_UVO_BLUFOR_LANGUAGE = "WEST";
 force AET_UVO_GUER_LANGUAGE = "GUER";
 force AET_UVO_OPFOR_LANGUAGE = "EAST";
 force AET_UVO_CIV_LANGUAGE = "NONE";
+
 /* UVO Languages Guide
 "NONE" = Disabled
 "WEST" = WEST [English]

@@ -12,3 +12,9 @@
 *
 * Public: No
 */
+
+params [
+    ["_someThing", "defaultValue", [""] ]
+];
+
+nil // return
