@@ -18,7 +18,6 @@ Available to be used to organize (and distribute) Artwork and Arma 3 Mod Templat
   - description.ext
   - CfgFunctions.hpp
     - fn_diary.sqf
-    - fn_dynamicGroup.sqf
 - CVO Presets
   - CVO Arsenal
   - CVO Custom Supply Crate
