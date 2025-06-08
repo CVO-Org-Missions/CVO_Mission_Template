@@ -15,36 +15,165 @@
 
 params [["_player", player, [objNull]]];
 
-_player createDiaryRecord ["Diary", ["Credits",""]]; 
-
-//Briefing [All sides]
-
-_player createDiaryRecord ["Diary", ["Signals","
-	Main Communication Net: LR 77.0<br/><br/>
-	Alpha Intercoms: SR 70.0<br/><br/>
-	Etc...<br/><br/>"
-]];
+_player createDiaryRecord ["Diary", ["Credits","
+<font size=12 face='EtelkaMonospacePro'>
+*** Insert Credits Here ***
+</font>
+"]]; 
 
 _player createDiaryRecord ["Diary", ["Additional","
-	1- There are still civilian population in the area<br/><br/>
-	2- There is active AAA around the outpost<br/><br/>
-	Etc...<br/><br/>"
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+Additional Information
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+<br/>  1. ***Insert additional information here.***
+<br/>  2. ***Insert additional information here.***
+</font>
+"]];
+
+
+_player createDiaryRecord ["Diary", ["Administration","
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+Current CVO Contract Details
+</font><br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert information current CVO deployment. ***
+</font><br/><br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+ADMINISTRATION
+</font><br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert administrative information. ***
+</font><br/><br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+LOGISTICS
+</font><br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert logistical information. ***
+</font><br/><br/>
+"
 ]];
 
+
 _player createDiaryRecord ["Diary", ["Execution","
-	1- Move in into the outpost<br/><br/>
-	2- Hold the outpost until reinforcments arrive<br/><br/>
-	Etc...<br/><br/>"
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+COMMANDER'S INTENT
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert very short summary of plan here.***
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+MOVEMENT PLAN
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert movement instructions here..***
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+FIRE SUPPORT PLAN
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert fire support instructions here.***
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+SPECIAL TASKS
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert instructions for specific units here.***
+</font>
+<br/>
+
+"
 ]];
 
 _player createDiaryRecord ["Diary", ["Mission","
-	We've lost contact with Red Star outpost north of Kavala, your mission is to move in and secure the outpost and wait for reinforcments to arrive, be aware that there is still active AAA that needs to be neutralized for reinforcments to move in.<br/><br/>
-	Once the outpost is secured, you are to returned to the FOB and clear a way for more reinforcments to arrive.<br/><br/>
-	Etc...<br/><br/>"
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert general information about the tasking here.***
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+PRIMARY OBJECTIVES
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert required Mission objectives here.***
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+SECONDARY OBJECTIVES
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert optional Mission objectives here.***
+</font>
+<br/>
+"
 ]];
 
 _player createDiaryRecord ["Diary", ["Situation","
-	This morning at 10:15 we've lost contact with outpost Red Star after a heavy assault from rebel forces supported by CSAT.<br/><br/>
-	We've also detected that rebel forces moved into the town of Kavala and started barricading it.<br/><br/>
-	Etc...<br/><br/>"
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert general information about the situation here.***
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+ENEMY FORCES
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert Information about enemy forces here.***
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+FRIENDLY FORCES
+</font>
+<br/>
+<font size=11 face='EtelkaMonospacePro'>
+*** Insert Information about friendly forces here.***
+</font>
+<br/>
+"
+]];
+
+// Remove Unused Channels
+_player createDiaryRecord ["Diary", ["COMMS PLAN","
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+Command Net: AN/PRC-148
+</font>
+<font size=11 face='EtelkaMonospacePro'>
+<br/> Group 01 Channel 1: Ground Command
+<br/> Group 01 Channel 8: JTAC NET
+<br/> Group 01 Channel 9: AIR NET
+</font>
+<br/>
+<br/>
+<font size=14 color='#0099ff' face='EtelkaMonospacePro'>
+Intra Squad Nets: AN/PRC-343 PRR
+</font>
+<font size=11 face='EtelkaMonospacePro'>
+<br/> Block 1 Channel  1: 1-1 - Infantry
+<br/> Block 1 Channel  2: 1-2 - Infantry
+<br/> Block 1 Channel  3: 1-3 - Infantry
+<br/> Block 1 Channel  4: 1-4 - Infantry
+<br/> Block 1 Channel  5: 1-5 - Recon
+<br/> Block 1 Channel  6: 1-6 - Platoon Command
+<br/> Block 1 Channel  7: 1-7 - Support
+<br/> Block 1 Channel  8: 1-8 - GRANIT - Fire Support
+<br/> Block 1 Channel  9: 1-9 - KODIAK - Air Transport
+<br/> Block 1 Channel 10: 1-0 - Company Command
+</font>
+"
 ]];
