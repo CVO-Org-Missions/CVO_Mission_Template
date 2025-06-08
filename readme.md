@@ -1,6 +1,6 @@
 # CVO Mission Template
 
-![](0_Artwork\loadScreen_cvo_default.png)
+![](/0_Artwork/loadScreen_cvo_default.png)
 
 This CVO Mission Template has been made for Missionmakers of the [24th Chorni Voron](http://discord.chornivoron.net/).
 
