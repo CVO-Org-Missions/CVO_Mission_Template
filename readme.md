@@ -9,6 +9,10 @@ This CVO Mission Template has been made for Missionmakers of the [24th Chorni Vo
 ### Auxiliary Folder
 Available to be used to organize (and distribute) Artwork and Arma 3 Mod Templates.
 
+#### [`0_Artwork`](0_Artwork/readme.md)
+#### [`0_Modsets`](0_Modsets/readme.md)
+
+
 ### Default Mission Folder
 - Basic Mission Files
   - description.ext
