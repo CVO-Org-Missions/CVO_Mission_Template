@@ -10,7 +10,7 @@ class CfgFunctions {
         };
         class Common // Category
         {
-            // class myFunction {};
+            // class example {};
         };
     };
 };
