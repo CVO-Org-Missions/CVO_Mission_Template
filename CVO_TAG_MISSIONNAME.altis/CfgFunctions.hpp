@@ -6,7 +6,6 @@ class CfgFunctions {
         class Mission // Category
         {
             class diary { preInit = 1; };
-            class dynamicGroup { postInit = 1; };
         };
         class Common // Category
         {
