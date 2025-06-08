@@ -6,9 +6,12 @@
 *   2x force:  Server overwrites Client and Mission
 *
 *   These Settings here can be changed by the Mission Maker.
-*   
 * 
 */
+
+// CVO - Core
+// Enables the DynamicGroups Menu through CVO AUX
+force cvo_core_set_enable_dynamicGroups = true;
 
 // CVO - Arsenal - Kits
 // false to disable CVO Arsenal Base Kits
@@ -49,7 +52,6 @@ force cvo_arsenal_set_save_arsenalClose = true;
 force cvo_arsenal_set_save_missionStart = true;
 force cvo_arsenal_set_save_missionStart_delay = 30;
 
-
 // CVO - Insignia
 // Autodefines the Insigina for players
 force cvo_insignia_set_on_arsenalClosed = true;
@@ -80,6 +82,7 @@ force AET_UVO_CIV_LANGUAGE = "NONE";
 "JP" = Japanese
 */
 
+
 // ACE Advanced Balistics -> Advanced Ballistics = true or false //
 force ace_advanced_ballistics_enabled = true;
 // ACE Artillery -> Artillery Computer Disabled = true or false //
@@ -102,6 +105,7 @@ force ace_pylons_enabledFromAmmoTrucks = true;
 force ace_hearing_enableCombatDeafness = true;
 force ace_hearing_disableEarRinging = false;
 
+
 // ACE Nightvision
 force ace_nightvision_aimDownSightsBlur = 1;
 force ace_nightvision_disableNVGsWithSights = false;
@@ -109,3 +113,4 @@ force ace_nightvision_effectScaling = 1;
 force ace_nightvision_fogScaling = 1.1;
 force ace_nightvision_noiseScaling = 1;
 force ace_nightvision_shutterEffects = true;
+
