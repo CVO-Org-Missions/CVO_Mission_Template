@@ -1,5 +1,5 @@
 /*
-* Author: Stolen from AET
+* Author: Stolen from AET, reworked by Zorn.
 * Function to add default Diary Entries.
 *
 * Arguments:
