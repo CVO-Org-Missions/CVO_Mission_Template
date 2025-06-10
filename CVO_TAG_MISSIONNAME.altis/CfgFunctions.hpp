@@ -6,6 +6,7 @@ class CfgFunctions {
         class Mission // Category
         {
             class diary { preInit = 1; };
+            class babel_init { postInit = 1; }
         };
         class Common // Category
         {
