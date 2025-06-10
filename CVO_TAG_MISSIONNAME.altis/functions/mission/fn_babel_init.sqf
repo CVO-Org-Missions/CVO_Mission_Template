@@ -52,8 +52,8 @@ cvo_babel_playerDefault = "en";
 // How to define Interpreter:
 // this setVariable ["interpreter", true];
 
-// Language to be used by the interpreter:
-cvo_babel_localLanguage = "viet";
+// Languages to be used by the interpreter:
+cvo_babel_interpreterLanguages = ["viet"];
 
 
 // UNCON FEATURE
@@ -86,7 +86,7 @@ cvo_babel_localPlayerLanguages pushBackUnique cvo_babel_playerDefault;
 // Local Languages via Translator
 
 if (player getVariable ["interpreter", false]) then {
-    cvo_babel_localPlayerLanguages pushBackUnique cvo_babel_localLanguage;
+    { cvo_babel_localPlayerLanguages pushBackUnique _x; } forEach cvo_babel_interpreterLanguages;
 };
 
 //// APPLY
