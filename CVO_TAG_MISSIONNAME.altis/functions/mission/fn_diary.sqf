@@ -13,6 +13,11 @@
 * Public: No
 */
 
+//// ################# COMMENT LINE BELOW TO ENABLE BABEL #################
+if (true) exitWith {};
+//// ################# COMMENT LINE ABOVE TO ENABLE BABEL #################
+
+
 params [["_player", player, [objNull]]];
 
 _player createDiaryRecord ["Diary", ["Credits","
