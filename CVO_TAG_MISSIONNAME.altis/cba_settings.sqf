@@ -83,11 +83,30 @@ force AET_UVO_CIV_LANGUAGE = "NONE";
 */
 
 
+// ACE Field Rations
+force acex_field_rations_enabled = true;
+
+force acex_field_rations_affectAdvancedFatigue = true;
+force acex_field_rations_terrainObjectActions = true;
+
+force acex_field_rations_hungerSatiated = 3;
+force acex_field_rations_thirstQuenched = 2.5;
+
+force acex_field_rations_timeWithoutFood = 6;
+force acex_field_rations_timeWithoutWater = 2.5;
+
+force acex_field_rations_waterSourceActions = 2;
+
+
+// ACE Advanced Balistics -> Advanced Ballistics = true or false //
+force ace_advanced_ballistics_enabled = true;
+
+
 // ACE Advanced Balistics -> Advanced Ballistics = true or false //
 force ace_advanced_ballistics_enabled = true;
 // ACE Artillery -> Artillery Computer Disabled = true or false //
 force ace_artillerytables_disableArtilleryComputer = false;
-// ACE Headless -> Enabled = true or false //
+// ACE Headless -> Enabled = true or false
 force acex_headless_enabled = false;
 // ACE Logistics -> Rearm Amount = 0, 1, or 2 [0 = Entire Vehicle, 1 = Entire Magazine, 2 = Amount based on caliber] //
 force ace_rearm_level = 1;
@@ -101,7 +120,7 @@ force ace_overheating_suppressorCoef = 1;
 // ACE Pylons -> Enable Pylons Menu from Ammo Trucks = true or false //
 force ace_pylons_enabledFromAmmoTrucks = true;
 
-// ACE Hearing
+// ACE Hearing  // Todo post first session: switch back to true and false
 force ace_hearing_enableCombatDeafness = true;
 force ace_hearing_disableEarRinging = false;
 
@@ -114,3 +133,25 @@ force ace_nightvision_fogScaling = 1.1;
 force ace_nightvision_noiseScaling = 1;
 force ace_nightvision_shutterEffects = true;
 
+// TSP Breach
+force tsp_cba_breach_lock_house = 0;
+force tsp_cba_breach_lock_door = 0;
+
+
+
+// IEDD Handbook
+
+force iedd_ied_failChance = 0.25;
+force iedd_ied_failChanceEOD = 0.05;
+force iedd_ied_failExploseChance = 0.05;
+
+force iedd_ied_maxRange = 10;
+force iedd_ied_minRange = 5;
+
+
+// Diwako
+force diwako_dui_nametags_enabled = false;
+force diwako_dui_nametags_useSideIsFriendly = false;
+
+force diwako_dui_linecompass_enabled = false;
+force diwako_dui_enable_compass_dir = 1;
