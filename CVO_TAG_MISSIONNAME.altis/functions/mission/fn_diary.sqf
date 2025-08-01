@@ -1,6 +1,7 @@
 /*
 * Author: Stolen from AET, reworked by Zorn.
 * Function to add default Diary Entries.
+* *** indicates a placeholder and should be removed after the Mission Maker is done adding his data.
 *
 * Arguments:
 *
@@ -13,15 +14,13 @@
 * Public: No
 */
 
-params [["_player", player, [objNull]]];
-
-_player createDiaryRecord ["Diary", ["Credits","
+player createDiaryRecord ["Diary", ["Credits","
 <font size=12 face='EtelkaMonospacePro'>
 *** Insert Credits Here ***
 </font>
 "]]; 
 
-_player createDiaryRecord ["Diary", ["Additional","
+player createDiaryRecord ["Diary", ["Additional","
 <font size=14 color='#0099ff' face='EtelkaMonospacePro'>
 Additional Information
 </font>
@@ -33,7 +32,7 @@ Additional Information
 "]];
 
 
-_player createDiaryRecord ["Diary", ["Administration","
+player createDiaryRecord ["Diary", ["Administration","
 <font size=14 color='#0099ff' face='EtelkaMonospacePro'>
 Current CVO Contract Details
 </font><br/>
@@ -56,7 +55,7 @@ LOGISTICS
 ]];
 
 
-_player createDiaryRecord ["Diary", ["Execution","
+player createDiaryRecord ["Diary", ["Execution","
 <font size=14 color='#0099ff' face='EtelkaMonospacePro'>
 COMMANDER'S INTENT
 </font>
@@ -96,7 +95,7 @@ SPECIAL TASKS
 "
 ]];
 
-_player createDiaryRecord ["Diary", ["Mission","
+player createDiaryRecord ["Diary", ["Mission","
 <font size=11 face='EtelkaMonospacePro'>
 *** Insert general information about the tasking here.***
 </font>
@@ -122,7 +121,7 @@ SECONDARY OBJECTIVES
 "
 ]];
 
-_player createDiaryRecord ["Diary", ["Situation","
+player createDiaryRecord ["Diary", ["Situation","
 <font size=11 face='EtelkaMonospacePro'>
 *** Insert general information about the situation here.***
 </font>
@@ -149,7 +148,7 @@ FRIENDLY FORCES
 ]];
 
 // Remove Unused Channels
-_player createDiaryRecord ["Diary", ["COMMS PLAN","
+player createDiaryRecord ["Diary", ["COMMS PLAN","
 <font size=14 color='#0099ff' face='EtelkaMonospacePro'>
 Command Net: AN/PRC-148
 </font>
