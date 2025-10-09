@@ -3,16 +3,16 @@ class CfgFunctions {
     class mission // TAG
     {
 
-        class Init // Category
+        class init // Category
         {
             class init_diary { preInit = 1; };
             class init_babel { postInit = 1; }
         };
-        class Common // Category
+        class common // Category
         {
             // class example {};
         };
-        class Mission // Category
+        class mission // Category
         {
             // class example {};
         };
