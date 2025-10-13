@@ -13,37 +13,6 @@
 // Enables the DynamicGroups Menu through CVO AUX
 force cvo_core_set_enable_dynamicGroups = true;
 
-// CVO - Arsenal - Kits
-// false to disable CVO Arsenal Base Kits
-force cvo_arsenal_ACE_FieldRations_Enabled = true;
-force cvo_arsenal_ACE_Hearing_Enabled = true;
-force cvo_arsenal_ACE_Overheating_Enabled = true;
-
-force cvo_arsenal_GreenMag_Loaded = true;
-force cvo_arsenal_ImmersionCigs_Loaded = true;
-
-force cvo_arsenal_BaseKit_Medical = true;
-force cvo_arsenal_BaseKit_Orientation = true;
-force cvo_arsenal_BaseKit_Utility = true;
-
-force cvo_arsenal_BaseRoleKit_Machinegunner = true;
-force cvo_arsenal_BaseRoleKit_Marksman = true;
-force cvo_arsenal_BaseRoleKit_RTO = true;
-
-force cvo_arsenal_BaseRoleKit_Engineer = true;
-force cvo_arsenal_BaseRoleKit_AdvEngineer = true;
-
-force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist = true;
-force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist_IEDD = true;
-
-force cvo_arsenal_BaseRoleKit_UAV = true;
-force cvo_arsenal_BaseRoleKit_EWSpecialist = true;
-
-force cvo_arsenal_BaseRoleKit_Medic = true;
-force cvo_arsenal_BaseRoleKit_Doctor = true;
-
-force cvo_arsenal_BaseRoleKit_Medic_suture = true;
-force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist_convertFuses = true;
 
 // CVO - Arsenal
 // Save Player Loadout and Restores it on Respawn
@@ -112,7 +81,9 @@ force acex_headless_enabled = false;
 force ace_rearm_level = 1;
 
 // ACE Medical -> Self Stitching = 0 or 1 [0 = No, 1 = Yes] //
-force ace_medical_treatment_allowSelfStitch = 0;
+force ace_medical_treatment_allowSelfStitch = 2;
+force ace_medical_treatment_allowSelfPAK = 2;
+force ace_medical_treatment_allowSelfIV = 1;
 
 // ACE Overheating -> Suppressor Coefficient = 0.00 to 5.00 //
 force ace_overheating_suppressorCoef = 1;
@@ -138,7 +109,6 @@ force tsp_cba_breach_lock_house = 0;
 force tsp_cba_breach_lock_door = 0;
 
 
-
 // IEDD Handbook
 
 force iedd_ied_failChance = 0.25;
@@ -155,3 +125,36 @@ force diwako_dui_nametags_useSideIsFriendly = false;
 
 force diwako_dui_linecompass_enabled = false;
 force diwako_dui_enable_compass_dir = 1;
+
+
+// CVO - Arsenal - Kits
+// false to disable CVO Arsenal Base Kits
+force cvo_arsenal_ACE_FieldRations_Enabled = true;
+force cvo_arsenal_ACE_Hearing_Enabled = true;
+force cvo_arsenal_ACE_Overheating_Enabled = true;
+
+force cvo_arsenal_GreenMag_Loaded = true;
+force cvo_arsenal_ImmersionCigs_Loaded = true;
+
+force cvo_arsenal_BaseKit_Medical = true;
+force cvo_arsenal_BaseKit_Orientation = true;
+force cvo_arsenal_BaseKit_Utility = true;
+
+force cvo_arsenal_BaseRoleKit_Machinegunner = true;
+force cvo_arsenal_BaseRoleKit_Marksman = true;
+force cvo_arsenal_BaseRoleKit_RTO = true;
+
+force cvo_arsenal_BaseRoleKit_Engineer = true;
+force cvo_arsenal_BaseRoleKit_AdvEngineer = true;
+
+force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist = true;
+force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist_IEDD = true;
+
+force cvo_arsenal_BaseRoleKit_UAV = true;
+force cvo_arsenal_BaseRoleKit_EWSpecialist = true;
+
+force cvo_arsenal_BaseRoleKit_Medic = true;
+force cvo_arsenal_BaseRoleKit_Doctor = true;
+
+force cvo_arsenal_BaseRoleKit_Medic_suture = true;
+force cvo_arsenal_BaseRoleKit_ExplosiveSpecialist_convertFuses = true;
