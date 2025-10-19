@@ -21,8 +21,12 @@ briefingName = "Operation Some Thing"; // The Mission name with operation displa
 overviewText = "Description of the mission here"; // The text above the picture in the mission selection menu
 
 
+// ###### Common Multiplayer Stuff
+skipLobby = 1; // 0: disabled - 1: enabled. Default: 0
 
 // ###### Default Stuff - Dont Touch unless really needed
+allowProfileGlasses = 1;
+saving = 0;
 allowFunctionsLog = 1;
 enableDebugConsole = 1;
 cba_settings_hasSettingsFile = 1;
